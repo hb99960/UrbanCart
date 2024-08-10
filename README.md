@@ -54,4 +54,10 @@
 * `DELETE /admin/categories/{categoryId}` : Update existing category
 * `PUT /public/categories/{categoryID}` : Delete a category
 
+### Upcoming Modules
+* Product Module
+* Order Module
+* Cart Module
+* Auth Module
+
 
