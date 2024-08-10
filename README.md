@@ -52,7 +52,7 @@
 * `POST /public/categories` : Create a new category
 * `GET /public/categories` : Get all categories
 * `DELETE /admin/categories/{categoryId}` : Update existing category
-* `PUT /public/categories/{categoryID}` : Delete a category
+* `PUT /public/categories/{categoryId}` : Delete a category
 
 ### Upcoming Modules
 * Product Module
