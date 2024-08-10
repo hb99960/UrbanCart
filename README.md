@@ -18,6 +18,16 @@
 * Hibernate
 * MySQL
 
+## Spring Dependencies
+
+Get these Spring dependency from Spring Intializr website
+* spring-boot-starter-web
+* spring-boot-starter-data-jpa
+* h2
+* lombok (Turn on the Annotations in the Settings > Compiler > Annotations)
+* spring-boot-starter-validation
+ 
+
 ## Modules
 
 * Category Module
