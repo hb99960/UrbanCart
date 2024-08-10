@@ -31,7 +31,7 @@
 
 ## Installation & Run
 
-* Before running the API server, you should update the database config inside the [application.properties](E-Commerce-Backend\src\main\resources\application.properties) file. 
+* Before running the API server, you should update the database config inside the [application.properties](src/main/resources/application.properties) file. 
 * Update the port number and url as per your local database config.
 
 ```
