@@ -26,6 +26,7 @@ Get these Spring dependency from Spring Intializr website
 * h2
 * lombok (Turn on the Annotations in the Settings > Compiler > Annotations)
 * spring-boot-starter-validation
+* Model Mapper
  
 
 ## Modules
