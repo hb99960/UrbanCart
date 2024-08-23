@@ -68,8 +68,13 @@ Get these Spring dependency from Spring Intializr website
 ### Product Module
 * `POST /categories/{categoryId}/product` : Add Product
 * `GET /public/products` : Get All Products
+* `PUT /admin/products/{productId}` : Update Product
+* `GET /public/categories/{categoryId}/products` : Get Products by Category
+* `GET /public/products/keyword/{keyword}` : Get Prodcuts by Keyword (Search functionality)
+* `DELETE /admin/products/{productId}` : Delete Product
 
 ### Upcoming Modules
+* Spring Security
 * Order Module
 * Cart Module
 * Auth Module
