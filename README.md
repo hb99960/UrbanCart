@@ -65,8 +65,11 @@ Get these Spring dependency from Spring Intializr website
 * `DELETE /admin/categories/{categoryId}` : Update existing category
 * `PUT /public/categories/{categoryId}` : Delete a category
 
+### Product Module
+* `POST /categories/{categoryId}/product` : Add Product
+* `GET /public/products` : Get All Products
+
 ### Upcoming Modules
-* Product Module
 * Order Module
 * Cart Module
 * Auth Module
