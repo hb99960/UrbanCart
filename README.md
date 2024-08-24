@@ -72,6 +72,7 @@ Get these Spring dependency from Spring Intializr website
 * `GET /public/categories/{categoryId}/products` : Get Products by Category
 * `GET /public/products/keyword/{keyword}` : Get Prodcuts by Keyword (Search functionality)
 * `DELETE /admin/products/{productId}` : Delete Product
+* `PUT /products/{productId}/image` : Upload Product Image
 
 ### Upcoming Modules
 * Spring Security
