@@ -39,6 +39,10 @@ Get these Spring dependency from Spring Intializr website
 
 ## Features
 
+## Swagger API Documentation
+
+You can access the Swagger API documentation : http://localhost:8080/swagger-ui/index.html
+
 
 ## Installation & Run
 
