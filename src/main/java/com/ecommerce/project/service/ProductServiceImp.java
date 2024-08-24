@@ -15,9 +15,13 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
@@ -32,6 +36,12 @@ public class ProductServiceImp implements ProductService{
 
     @Autowired
     private ProductRepository productRepository;
+
+    @Autowired
+    private FileService fileService;
+
+    @Value("${project.image}")
+    private String path;
 
     @Override
     public ProductDTO addProduct(Long categoryId, ProductDTO productDTO) {
@@ -179,5 +189,22 @@ public class ProductServiceImp implements ProductService{
 
         productRepository.delete(product);
         return modelMapper.map(product, ProductDTO.class);
+    }
+
+    @Override
+    public ProductDTO updateProductImage(Long productId, MultipartFile image) throws IOException {
+        // Get the product from Db
+        // Upload image to Server
+        // Get the file name of upload Image
+        // updating the new file name to the product
+        // return DTO after mapping product to DTO
+        Product productFromDb = productRepository.findById(productId)
+                .orElseThrow(() -> new ResourceNotFoundException("Product", "productId", productId));
+
+        String fileName = fileService.uploadImage(path, image);
+        productFromDb.setImage(fileName);
+
+        Product updatedProduct = productRepository.save(productFromDb);
+        return modelMapper.map(updatedProduct, ProductDTO.class);
     }
 }
