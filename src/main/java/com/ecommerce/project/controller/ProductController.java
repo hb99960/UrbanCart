@@ -95,7 +95,5 @@ ProductService productService;
         return new ResponseEntity<>(updatedProduct, HttpStatus.OK);
     }
 
-
-
 }
 

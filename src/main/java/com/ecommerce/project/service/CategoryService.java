@@ -12,4 +12,6 @@ public interface CategoryService {
     CategoryDTO createCategory(CategoryDTO categoryDTO);
     CategoryDTO deleteCategory(Long categoryId);
     CategoryDTO updateCategory(CategoryDTO categoryDTO, Long categoryId);
+
+    int multiplyIntegers(int a, int b);
 }
