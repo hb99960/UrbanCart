@@ -34,4 +34,8 @@ public class Category {
 // getters and setters are important in Entities because : JPA uses them
 // Hibernate is open source ORM framework : Map Java object to Relational Database
 
+    public Category(Long id, String categoryName){
+        categoryId = id;
+        this.categoryName = categoryName;
+    }
 }
