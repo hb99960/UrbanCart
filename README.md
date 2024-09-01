@@ -78,10 +78,16 @@ You can access the Swagger API documentation : http://localhost:8080/swagger-ui/
 * `DELETE /admin/products/{productId}` : Delete Product
 * `PUT /products/{productId}/image` : Upload Product Image
 
+### Auth Module
+* module is ready, endpoints will be documented soon. Meanwhile, checkout swagger-UI to check REST APIs.
+
+### Spring Security
+* 
+
 ### Upcoming Modules
-* Spring Security
 * Order Module
 * Cart Module
-* Auth Module
+* Payment Module
+
 
 
