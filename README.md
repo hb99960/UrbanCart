@@ -82,9 +82,10 @@ You can access the Swagger API documentation : http://localhost:8080/swagger-ui/
 * module is ready, endpoints will be documented soon. Meanwhile, checkout swagger-UI to check REST APIs.
 
 ### Spring Security
-* 
+
+### Cart Module
+* module is ready, endpoints will be documented soon. Meanwhile, checkout swagger-UI to check REST APIs.
 
 ### Upcoming Modules
 * Order Module
-* Cart Module
 * Payment Module
