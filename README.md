@@ -97,10 +97,13 @@ Happy exploring! 🚀
 ### Auth Module
 * module is ready, endpoints will be documented soon. Meanwhile, checkout swagger-UI to check REST APIs.
 
-### Spring Security
-
 ### Cart Module
 * module is ready, endpoints will be documented soon. Meanwhile, checkout swagger-UI to check REST APIs.
+
+### Address Module
+* module is ready, endpoints will be documented soon. Meanwhile, checkout swagger-UI to check REST APIs.
+
+### Spring Security
 
 ### Upcoming Modules
 * Order Module
