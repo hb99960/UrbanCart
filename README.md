@@ -41,7 +41,23 @@ Get these Spring dependency from Spring Intializr website
 
 ## Swagger API Documentation
 
-You can access the Swagger API documentation : http://localhost:8080/swagger-ui/index.html
+🎉 We Are Live! 🎉
+
+Our application is now up and running. To explore our API endpoints, follow these steps:
+
+Visit the Swagger UI: https://batra-ecom-1-0.onrender.com/swagger-ui/index.html
+
+Login Credentials:
+
+Username: `user1`
+
+Password: `password1`
+
+Once logged in, you can navigate through the various API endpoints and see how they are documented. Enjoy exploring!
+
+If you encounter any issues or have questions, feel free to reach out.
+
+Happy exploring! 🚀
 
 
 ## Installation & Run
