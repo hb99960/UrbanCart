@@ -61,11 +61,6 @@ If you encounter any issues or have questions, feel free to reach out.
 
 Happy exploring! 🚀
 
-**Disclaimer** : This is a Free web service, which may go down after 15 minutes without receiving inbound traffic. It will automatically restart the service whenever it receives a new request.
- 
-Please note that starting up the service can take up to a minute, which may result in a noticeable delay for incoming requests while the service is being spun back up. For example, you might experience a temporary hang when loading a browser page.
-
-
 ## Installation & Run
 
 * Before running the API server, you should update the database config inside the [application.properties](src/main/resources/application.properties) file. 
