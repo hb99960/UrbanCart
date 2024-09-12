@@ -1,15 +1,16 @@
-# UrbanCart
-
 <h1 align="center" id="title">UrbanCart</h1>
 
-<img alt="Docker Automated build" src="https://img.shields.io/docker/automated/batrahub/batra-ecom">  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/hb99960/UrbanCart"> <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/batrahub/batra-ecom">
 
-<p align="center"><img src="https://socialify.git.ci/hb99960/UrbanCart/image?language=1&amp;owner=1&amp;name=1&amp;stargazers=1&amp;theme=Light" alt="project-image"></p>
+
+
+<img width="1478" alt="image" src="https://github.com/user-attachments/assets/062396d0-a3ed-462a-aca9-dbd1fa66bfba">
 
 <p id="description">Production Grade e-Commerce App built using Java Spring Boot framework JPA Hibernate.</p>
 
 ## Overview of UrbanCart App
-<img width="1478" alt="image" src="https://github.com/user-attachments/assets/062396d0-a3ed-462a-aca9-dbd1fa66bfba">
+
+<img alt="Docker Automated build" src="https://img.shields.io/docker/automated/batrahub/batra-ecom">  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/hb99960/UrbanCart"> <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/batrahub/batra-ecom">
+
 
 ## Tech Stack
 
